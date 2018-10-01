@@ -3,75 +3,81 @@
     <head>
         <meta charset="UTF-8">
         <title>Daniel DiLoreto</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
-    <body class="bg-secondary">
-        <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1 text-dark">
+    <body>
+        <nav id="header" class="navbar">
+            <span class="navbar-brand text-light px-3 mb-0 border-right">
                 <a>
                     Daniel DiLoreto
                 </a>
             </span>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">
+                    <a class="nav-link text-light border-right" href="index.html">
                         About
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="porfolio.html">
+                    <a class="nav-link text-light border-right" href="porfolio.html">
                         Portfolio
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">
+                    <a class="nav-link text-light border-right" href="contact.html">
                         Contact
                     </a>
                 </li>
             </ul>
         </nav>
-        <div class="container mt-5 p-2 card bg-light">
+        <div class="container">
             <div class="row">
-                <div class="col-md-12 text-dark">
-                    <h1>
-                       Portfolio
-                    </h1>
-                  <hr>
-                </div>    
+                <div id="portfolio" class="col-md-12">
+                    <div class="card portfolio-object">
+                       <a class="portfolio-img" href="https://diloretodg.github.io/music_box/" >
+                            <img src="assets/images/music box.png" class="card-img-top img-thumbnail w-auto rounded-top" >
+                        </a> 
+                        <div class="card-title text-center">Music Box</div>
+                        <div class="card-body"></div> 
+                    </div>
+                    <div class="card portfolio-object">
+                        <a class="portfolio-img" href="https://diloretodg.github.io/TriviaGame/">
+                            <img src="assets/images/trivia.png" class="card-img-top img-thumbnail w-auto rounded-top" >
+                        </a>
+                        <div class="card-title text-center">Trivia</div>
+                        <div class="card-body"></div>
+                    </div>
+                    <div class="card portfolio-object">
+                        <a class="portfolio-img" href="https://diloretodg.github.io/Word-Guess-Game/">
+                            <img src="assets/images/hangman.png"  class="card-img-top img-thumbnail w-auto rounded-top" >
+                        </a>
+                        <div class="card-title text-center">Hangman</div>
+                        <div class="card-body"></div>
+                    </div>
+                    <div class="card portfolio-object">
+                        <a class="portfolio-img" href="https://diloretodg.github.io/class_project_1/" >
+                            <img src="assets/images/meistro.png" class="card-img-top img-thumbnail w-auto rounded-top" >
+                        </a>
+                        <div class="card-title text-center">Meistro Music Game</div>
+                        <div class="card-body"></div>
+                    </div>
+                    <div class="card portfolio-object">
+                        <a class="portfolio-img" href="https://diloretodg.github.io/tic_tac_toe/">
+                            <img src="assets/images/tictactoe.png" class="card-img-top img-thumbnail w-auto rounded-top" >
+                        </a>
+                        <div class="card-title text-center">Tick Tac Toe</div>
+                        <div class="card-body"></div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="item item-1 portfolio-img col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="item-label">
-                        Hangman
-                    </div>
-                </div>
-                <div class="item item-2 portfolio-img col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="item-label">
-                        RPG Game
-                    </div>
-                </div>
-                <div class="item item-3 portfolio-img col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="item-label">
-                        Trivia
-                    </div>
-                </div>
-                <div class="item item-4 portfolio-img col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="item-label">
-                        Tic-Tac-Toe
-                    </div>
-                </div>
-                <div class="item item-5 portfolio-img col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="item-label">
-                        Rock Paper Scissors
-                    </div>
-                </div>
-            </div>
-        </div> 
-        <footer class="bg-light text-dark text-center w-100 fixed-bottom mt-4 pb-2">
-           <hr class="text-dark mb-0">
-            &copy; Daniel DiLoreto
-        </footer>       
+        </div>
+        <footer id="footer" class="text-light text-center w-100 fixed-bottom mt-4 pb-1">
+                <hr class=" mb-0">
+                <a class="btn w-auto mx-1 my-1 text-light" href="https://github.com/diloretodg">Github</a>
+                <a class="btn w-auto mx-1 my-1 text-light" href="https://www.linkedin.com/in/daniel-diloreto-a627ab167/">Linkedin</a>
+                <a class="btn w-auto mx-1 my-1 text-light" href="https://codepen.io/diloretodg/">CodePen</a>
+                <div class="mb-2">&copy; Daniel DiLoreto</div>  
+            </footer>        
     </body>
 </html>
