@@ -1,57 +1,48 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-nav ul a,
-nav .brand-logo {
-  color: #444;
-}
-
-p {
-  line-height: 2rem;
-}
-
-.sidenav-trigger {
-  color: #26a69a;
-}
-
-.parallax-container {
-  min-height: 500px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
+body {
+    background: url(../assets/images/full-bloom.png);
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 100%;
   }
+.banner{
+    background-image: url(../assets/images/Cloudbank-min-top.jpg);
+    background-size: cover;
 
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
+}
+.skills{
+    font-weight: 700;
+    padding: 15px; 
+    margin: 50px;
+}
+.portfolio-card{
+    height: auto;
+    width: 100px;
+}
+.project-img{
+    background-size: cover;
+    height:200px;
+    width:auto;
+}
+.content{
+    background-color: whitesmoke;
+}
+#music-box{
+    background-image: url(../assets/images/meistro.png);
+}
+#trophy-case{
+    background-image: url(../assets/images/meistro.png);
+}
+#recipease{
+    background-image: url(../assets/images/meistro.png);
+}
+#profile-img{
+    background-image: url(../assets/images/Profile-pic.jpg);
+    background-size: cover;
+    position: relative;
+    width: auto;
+    max-width: 100%;
+    height: 325px;
+    z-index: 10000;
+    border-radius: 50%;
   }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-}
