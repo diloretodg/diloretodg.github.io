@@ -63,6 +63,7 @@ body {
     width: auto;
 }
 .profile-card{
+    top:45px;
     height: 320px;
     width: 320px;
     margin: auto;
