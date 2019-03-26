@@ -32,7 +32,7 @@ p{
     background-image: url(../assets/images/music\ box.png);
 }
 #trophycase-img{
-    background-image: url(../assets/images/meistro.png);
+    background-image: url(../assets/images/trophycase.png);
 }
 #recipease-img{
     background-image: url(../assets/images/liri-demo-pic.png);
@@ -50,6 +50,9 @@ p{
     padding: 1rem;
     background-color: #417ba0;
     text-align: center;
+}
+.banner-text{
+    
 }
 .social-icons{
     padding:1rem;
