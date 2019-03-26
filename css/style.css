@@ -4,54 +4,64 @@ body {
     margin: 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 100%;
-  }
+}
+a{
+    color: #ee964a;
+}
+p{
+    margin-top: 2rem;
+}
 #banner{
-    text-align: center;
-    background-color: whitesmoke;
+    background-color: #417ba0;
     /* background-image: url(../assets/images/Cloudbank-min-top.jpg); */
     background-size: cover;
     padding: 60px;
     font-size: 30px;
-}
-#banner:hover{
-    background-color: darkslateblue;
+    border-bottom: 4px solid #ee964a;
+    display: flex;
+    align-items: center;
 }
 #about{
-    padding:5px;
+    padding:1rem;
+    margin-top: 1rem;
 }
 #miestro-music-img{
     background-image: url(../assets/images/meistro.png);
 }
 #music-box-img{
-    background-image: url(../assets/images/meistro.png);
+    background-image: url(../assets/images/music\ box.png);
 }
-#trophy-case-img{
+#trophycase-img{
     background-image: url(../assets/images/meistro.png);
 }
 #recipease-img{
-    background-image: url(../assets/images/meistro.png);
+    background-image: url(../assets/images/liri-demo-pic.png);
 }
 #profile-img{
     background-image: url(../assets/images/Profile-pic.jpg);
     background-size: cover;
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    margin: auto;
+    /* margin: auto; */
 }
 #footer{
-    background-color: darkslateblue;
+    padding: 1rem;
+    background-color: #417ba0;
     text-align: center;
 }
+.social-icons{
+    padding:1rem;
+}
 .orange-text{
-    color: lightsalmon;
+    color: #ee964a;
 }
 .indigo-text{
-    color: darkslateblue
+    color: #417ba0;
 }
-.whitesmoke-text{
-    color: whitesmoke
+.white-text{
+    color: white;
 }
 .skills{
     font-weight: 700;
@@ -59,11 +69,11 @@ body {
     margin: 50px;
 }
 .portfolio-card{
+    padding: 1rem;
     height: auto;
     width: auto;
 }
 .profile-card{
-    top:45px;
     height: 320px;
     width: 320px;
     margin: auto;
@@ -72,6 +82,7 @@ body {
     background-size: cover;
     height:300px;
     width:auto;
+    margin: -1rem;
 }
 .content{
     background-color: whitesmoke;

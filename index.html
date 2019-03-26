@@ -14,69 +14,69 @@
     <body>
         <!-- Banner -->
         <div id='banner' class="row">
-            <div class='col-sm-12'>
-                <h1 class="indigo-text">Hello, I'm <span class="orange-text">Dan DiLoreto</span>. <br>I'm a full-stack web developer.</h1>
+            <div class='col-sm-8'>
+                <h1 class="white-text">Hello, I'm <span class="orange-text">Dan DiLoreto</span></h1>
+                <h2 class='white-text'>Full-Stack Web Developer</h2>
+            </div>
+            <div class='col-sm-4'>
+                    <div id='profile-img'></div>
             </div>
         </div>
         <div class="container content">
             <!-- About -->
             <div id='about' class='row'>
                 <div class="col-md-7 col-sm-12">
-                    <h4>About Me</h4>
+                    <h3>About Me</h3>
                     <hr>
-                    <p class="left-align light">  I am a Raleigh NC based Web Developer who is passionate about JavaScript, Music, Art, and creative ways to put them all together! I love finding interesting APIs and Languages to play with  and build interesting, fun, or useful things I want to use in my everyday life. I am proficient with: 
-                        <ul class="left-align">
-                            <span class='skills'>
-                                <li>HTML/CSS/JavaScript</li>
-                                <li>Git/GitHub/Heroku</li>
-                                <li>Bootstrap</li>
-                                <li>jQuery</li>
-                                <li>React.js</li>
-                                <li>Express.js</li>
-                                <li>Node.js</li>
-                                <li>MongoDB/Mongoose</li>
-                                <li>MySQL/ Sequelize</li>
-                                <li>Firebase</li>
-                                <li>Postman</li>
-                            </span>
-                        </ul>
+                    <p class="left-align light">  I am a Raleigh NC based Web Developer who is passionate about JavaScript, Music, Art, and creative ways to put them all together! I love finding interesting APIs and Languages to play with  and build interesting, fun, or useful things I want to use in my everyday life.
                     </p>
                 </div>
                 <div class="col-md-5 col-sm-12">
-                    <div id='profile' class='card profile-card'>
-                        <div id='profile-img'></div>
-                    </div>
+                    <h3>Skills:</h3>
+                    <hr>
+                    <ul>
+                        <span class='skills'>
+                            <li>HTML/CSS/JavaScript</li>
+                            <li>Git/GitHub/Heroku</li>
+                            <li>Bootstrap</li>
+                            <li>jQuery</li>
+                            <li>React.js</li>
+                            <li>Express.js</li>
+                            <li>Node.js</li>
+                            <li>MongoDB/Mongoose</li>
+                            <li>MySQL/ Sequelize</li>
+                            <li>Firebase</li>
+                            <li>Postman</li>
+                        </span>
+                    </ul>
                 </div> 
             </div>
             <hr>
             <!-- Portfolio-->
             <div id='portfolio' class='row'>
-                <div class='col-md-6 col-sm-12'>
+                <div class='col-sm-12 col-md-6'>
                     <div id='musicbox' class='portfolio-card card'>
                         <h5>MusicBox</h5>
                         <a>link to project</a>
                         <hr>
-                        <div class="icon-block">
-                            <div id='recipease-img' class='project-img'></div>
-                            <h5 class="center"></h5>
-                            <p>A project focusing on my passion for coding and music. Utilizing technology including React.js, Tone.js, and Firebase to play user created melodies.</p>
-                        </div>
+                        <div id='music-box-img' class='project-img'></div>
+                        <h5 class="center"></h5>
+                        <p>A project focusing on my passion for coding and music. Utilizing technology including React.js, Tone.js, and Firebase to play user created melodies.</p>
                     </div>
-                     <hr>
+                    <hr>
+                </div>
+                <div class='col-sm-12 col-md-6'>
                     <div id='trophycase' class='portfolio-card card'>
                         <h5 class="card-title">TrophyCase</h5>
                         <a>link to project</a>
                         <hr>
-                        <div class="icon-block">
-                            <div id='recipease-img' class='project-img'></div>
-                            <h5 class="center"></h5>
-                            <p>A project meant to help organize whatever collections they own, using React.js, Express.js, Chart.js, MongoDB, and Mongoose</p>
-                        </div>
+                        <div id='trophycase-img' class='project-img'></div>
+                        <h5 class="center"></h5>
+                        <p>A project meant to help organize whatever collections they own, using React.js, Express.js, Chart.js, MongoDB, and Mongoose</p>
                     </div>
                     <hr>
                 </div>
-                <br>
-                <div class='col-md-6 col-sm-12'>
+                <div class='col-sm-12 col-md-6'>
                     <div id='recipease' class='portfolio-card card'>
                         <h5>Recipease</h5>
                         <a>link to project</a>
@@ -87,19 +87,19 @@
                             <p class="light">This project is designed to help discover recipes to prepare and assist in meal prepping. this project uses Angular, Passport.js, and Express.js </p>
                         </div>
                     </div>
+                </div>
                     <hr>
                     <div id='miestro-music' class='portfolio-card card'>
                         <h5>Miestro Music Game</h5>
                         <a>link to project</a>
                         <hr>
                         <div class="icon-block">
-                            <div id='recipease-img' class='project-img'></div>
+                            <div id='miestro-music-img' class='project-img'></div>
                             <h5 class="center"></h5>
                             <p class="light">This project is designed to help discover recipes to prepare and assist in meal prepping. this project uses Angular, Passport.js, and Express.js </p>
                         </div>
                     </div>
                     <hr>
-                </div>
             </div>
             <br>
             <!-- Contact-->
@@ -127,14 +127,27 @@
                 </div>
             </div> -->
         </div>
+        <footer id="footer">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer-copyright white-text">
+                        Made by<a href="#about"><span class="orange-text"> Daniel DiLoreto </span></a>  &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 social-icons">
+                    <!-- Links to other material -->
+                    <a class="social-icons" href="https://github.com/diloretodg">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="social-icons" href="https://codepen.io/diloretodg/">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                    <a class="social-icons" href="https://www.linkedin.com/in/daniel-diloreto-a627ab167/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </body>
-    <br>
-    <footer id="footer">
-        <div class="footer-copyright ">
-            Made by <span class="whitesmoke-text" href="#">Daniel DiLoreto</span> &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script>
-<!-- Links to other material -->
-            <i class="fab fa-github" href="https://github.com/diloretodg"></i>
-            <i class="fab fa-codepen" href="https://codepen.io/diloretodg/"></i>
-            <i class="fab fa-linkedin" href="https://www.linkedin.com/in/daniel-diloreto-a627ab167/"></i>
-        </div>
-    </footer>
