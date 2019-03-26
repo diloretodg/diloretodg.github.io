@@ -5,10 +5,53 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 100%;
   }
-.banner{
-    background-image: url(../assets/images/Cloudbank-min-top.jpg);
+#banner{
+    text-align: center;
+    background-color: whitesmoke;
+    /* background-image: url(../assets/images/Cloudbank-min-top.jpg); */
     background-size: cover;
-
+    padding: 60px;
+    font-size: 30px;
+}
+#banner:hover{
+    background-color: darkslateblue;
+}
+#about{
+    padding:5px;
+}
+#miestro-music-img{
+    background-image: url(../assets/images/meistro.png);
+}
+#music-box-img{
+    background-image: url(../assets/images/meistro.png);
+}
+#trophy-case-img{
+    background-image: url(../assets/images/meistro.png);
+}
+#recipease-img{
+    background-image: url(../assets/images/meistro.png);
+}
+#profile-img{
+    background-image: url(../assets/images/Profile-pic.jpg);
+    background-size: cover;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+#footer{
+    background-color: darkslateblue;
+    text-align: center;
+}
+.orange-text{
+    color: lightsalmon;
+}
+.indigo-text{
+    color: darkslateblue
+}
+.whitesmoke-text{
+    color: whitesmoke
 }
 .skills{
     font-weight: 700;
@@ -17,32 +60,18 @@ body {
 }
 .portfolio-card{
     height: auto;
-    width: 100px;
+    width: auto;
+}
+.profile-card{
+    height: 320px;
+    width: 320px;
+    margin: auto;
 }
 .project-img{
     background-size: cover;
-    height:200px;
+    height:300px;
     width:auto;
 }
 .content{
     background-color: whitesmoke;
 }
-#music-box{
-    background-image: url(../assets/images/meistro.png);
-}
-#trophy-case{
-    background-image: url(../assets/images/meistro.png);
-}
-#recipease{
-    background-image: url(../assets/images/meistro.png);
-}
-#profile-img{
-    background-image: url(../assets/images/Profile-pic.jpg);
-    background-size: cover;
-    position: relative;
-    width: auto;
-    max-width: 100%;
-    height: 325px;
-    z-index: 10000;
-    border-radius: 50%;
-  }
