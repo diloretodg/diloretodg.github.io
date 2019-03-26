@@ -38,7 +38,7 @@ p{
     background-image: url(../assets/images/liri-demo-pic.png);
 }
 #profile-img{
-    background-image: url(../assets/images/Profile-pic.jpg);
+    background-image: url(../assets/images/profile\ pic.jpg);
     background-size: cover;
     position: relative;
     width: 200px;
@@ -52,7 +52,7 @@ p{
     text-align: center;
 }
 .banner-text{
-    
+
 }
 .social-icons{
     padding:1rem;
